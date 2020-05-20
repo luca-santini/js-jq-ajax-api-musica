@@ -16,24 +16,18 @@
         </header>
 
         <div class="cds-container container">
-            <!-- Disco ad esempio -->
-            <div class="cd">
-                <img src="https://upload.wikimedia.org/wikipedia/en/9/9f/Ten_Summoner%27s_Tales.jpg" alt="">
-                <h3>Ten's Summoners Tales</h3>
-                <span class="author">Sting</span>
-                <span class="year">1993</span>
-            </div>
+
         </div>
 
-        <div class="cds-container container">
+        <script id="template-dischi" type="text/x-handlebars-template">
             <!-- clone js per handlebars -->
             <div class="cd">
-                <img src="https://upload.wikimedia.org/wikipedia/en/9/9f/Ten_Summoner%27s_Tales.jpg" alt="" {{immagine}}>
+                <img src="{{immagine}}" alt="" >
                 <h3>{{titolo}}</h3>
                 <span class="author">{{autore}}</span>
                 <span class="year">{{anno}}</span>
             </div>
-        </div>
+        </script>
 
         <script src="main.js" charset="utf-8"></script>
     </body>
