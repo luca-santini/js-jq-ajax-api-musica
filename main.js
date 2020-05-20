@@ -7,7 +7,7 @@ $.ajax({
     'url': 'https://flynn.boolean.careers/exercises/api/array/music',
     'method': 'GET',
     'success': function(data) {
-        // Code
+        // che funzione devo utilizzare?
     },
     'error': function() {
         alert('si è verificato un errore');
